@@ -55,11 +55,12 @@
             label = "nav";
             bindings = <
 &trans      &trans  &trans  &trans  &trans  &trans           &kp RC(PG_DN)       &kp UP       &kp RC(PG_UP)         &trans          &to 0                &trans
-&trans      &trans  &trans  &trans  &trans  &trans           &kp LEFT            &kp RSHIFT   &kp RIGHT             &trans          &msc MOVE_UP         &trans
-&trans      &trans  &trans  &trans  &trans  &to 0            &kp RC(LEFT)        &kp DOWN     &kp RC(RIGHT)         &msc MOVE_LEFT  &msc MOVE_DOWN       &msc MOVE_RIGHT
+&trans      &trans  &trans  &trans  &trans  &trans           &kp LEFT            &kp RSHIFT   &kp RIGHT             &trans          &msc SCRL_UP         &trans
+&trans      &trans  &trans  &trans  &trans  &to 0            &kp RC(LEFT)        &kp DOWN     &kp RC(RIGHT)         &msc SCRL_LEFT  &msc SCRL_DOWN       &msc SCRL_RIGHT
                         &kp LALT  &kp LGUI  &trans           &trans              &trans       &trans
             >;
         };
+
     };
 };
 
