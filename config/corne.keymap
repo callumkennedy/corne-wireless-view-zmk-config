@@ -52,7 +52,7 @@
         };
 
         layer_3 {
-            label = "nav"
+            label = "nav";
             bindings = <
 &trans      &trans  &trans  &trans  &trans  &trans           &kp RC(PG_DN)       &kp UP       &kp RC(PG_UP)         &trans          &to 0                &trans
 &trans      &trans  &trans  &trans  &trans  &trans           &kp LEFT            &kp RSHIFT   &kp MOVE_RIGHT        &trans          &msc MOVE_UP         &trans
