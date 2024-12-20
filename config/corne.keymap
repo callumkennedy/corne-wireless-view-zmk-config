@@ -34,10 +34,10 @@
         lower_layer {
             label = "down";
             bindings = <
-&kp ESC      &trans  &kp HOME          &kp UP        &kp END        &trans                &kp ESC     &kp N7        &kp N8  &kp N9        &kp PLUS         &kp KP_MINUS
-&bootloader  &trans  &kp LEFT_ARROW    &kp DOWN      &kp RIGHT      &kp K_COPY            &kp N0      &kp N4        &kp N5  &kp N6        &kp KP_ASTERISK  &kp KP_DIVIDE
-&to 3       &trans  &kp LC(LEFT)       &trans        &kp LC(RIGHT)  &kp K_PASTE           &trans      &kp N1        &kp N2  &kp N3        &kp KP_DOT       &kp EQUAL
-                                &kp LCTRL(LSHIFT(T))        &trans         &trans                &trans      &trans        &to 0
+&kp ESC      &trans    &kp HOME          &kp UP            &kp END              &bootloader               &bootloader     &trans          &trans     &trans        &kp PLUS         &kp KP_MINUS
+&trans       &trans    &kp LEFT_ARROW    &kp DOWN          &kp RIGHT             &kp K_COPY               &kp N0      &kp N4          &kp N5     &kp N6        &kp KP_ASTERISK  &kp KP_DIVIDE
+&to 3        &trans    &kp LC(LEFT)      &kp LC(LS(T))     &kp LC(RIGHT)        &kp K_PASTE               &trans       &kp N1         &kp N2     &kp N3        &kp KP_DOT       &kp EQUAL
+                                         &trans           &trans        &trans                            &trans      &trans          &to 0
             >;
         };
 
@@ -54,10 +54,10 @@
         layer_3 {
             label = "nav"
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &trans         &kp RCTRL(PG_DN)    &kp UP     &kp RCTRL(PG_UP)         &trans          &to 0                &trans
+&trans      &trans  &trans  &trans  &trans  &trans         &kp RCTRL(PG_DN)    &kp UP       &kp RCTRL(PG_UP)         &trans          &to 0                &trans
 &trans   &trans  &trans  &trans  &trans  &trans            &kp LEFT            &kp RSHIFT   &kp MOVE_RIGHT         &trans          &msc MOVE_UP         &trans
-&trans    &trans  &trans  &trans  &trans  &to 0            &kp RCTRL(LEFT)     &kp DOWN      &kp RCTRL(RIGHT)      &msc MOVE_LEFT  &msc MOVE_DOWN       &msc MOVE_RIGHT
-                        &kp LALT  &kp LGUI  &trans         &trans              &trans     &trans
+&trans    &trans  &trans  &trans  &trans  &to 0            &kp RCTRL(LEFT)     &kp DOWN     &kp RCTRL(RIGHT)      &msc MOVE_LEFT  &msc MOVE_DOWN       &msc MOVE_RIGHT
+                        &kp LALT  &kp LGUI  &trans         &trans              &trans       &trans
             >;
         };
     };
