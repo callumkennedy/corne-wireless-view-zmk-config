@@ -34,7 +34,7 @@
         lower_layer {
             label = "down";
             bindings = <
-&kp ESC     &trans    &kp HOME          &kp END           &tog 3             &bootloader                  &bootloader     &kp AMPS      &kp UP        &kp MINUS      &kp EQUAL      &kp BACKSPACE
+&kp ESC     &trans    &kp HOME          &kp END           &tog 3             &bootloader                  &kp DEL     &kp AMPS      &kp UP        &kp MINUS      &kp EQUAL      &kp BACKSPACE
 &trans      &trans    &kp LC(PG_DN)     &kp LBKT          &kp RBKT           &kp K_COPY                   &kp TAB         &kp LEFT      &kp DOWN      &kp RIGHT      &kp SEMI       &kp SQT
 &trans      &trans    &kp LC(LS(T))     &kp LT            &kp GT             &kp K_PASTE                  &kp LPAR        &kp RPAR      &trans        &kp COMMA      &kp DOT        &kp EQUAL
                                         &trans            &trans             &trans                       &trans          &trans        &kp RALT
@@ -54,9 +54,9 @@
         layer_3 {
             label = "nav";
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &trans           &kp F5      &kp HOME            &kp UP          &kp END &kp           RC(PG_DN)          &kp RC(PG_UP)          
-&trans      &trans  &trans  &trans  &trans  &trans           &kp F11     &kp LEFT            &kp DOWN        &kp RIGHT             &bt BT_NXT         &bt BT_SEL 0           
-&trans      &trans  &trans  &trans  &trans  &trans           &kp F10     &kp RC(LEFT)        &trans          &kp RC(RIGHT)         &bt BT_CLR         &trans         
+&trans      &trans  &trans  &trans  &trans  &trans           &kp F5      &kp F12            &kp UP           &kp END               &kp RC(PG_UP)      &kp RC(PG_DN)          
+&trans      &trans  &trans  &trans  &trans  &trans           &kp F10     &kp LEFT            &kp DOWN        &kp RIGHT             &bt BT_NXT         &bt BT_SEL 0           
+&trans      &trans  &trans  &trans  &trans  &trans           &kp F11     &kp RC(LEFT)        &trans          &kp RC(RIGHT)         &bt BT_CLR         &trans         
                             &trans  &trans  &trans           &trans      &trans              &trans          &trans
             >;
         };
