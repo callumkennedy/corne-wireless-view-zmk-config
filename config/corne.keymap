@@ -54,7 +54,7 @@
         layer_3 {
             label = "nav";
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &trans           &kp F5      &kp HOME            &kp UP          &kp END &kp           RC(PG_DN)       &kp RC(PG_UP)          
+&trans      &trans  &trans  &trans  &trans  &trans           &kp F5      &kp HOME            &kp UP          &kp END               &kp RC(PG_DN)       &kp RC(PG_UP)          
 &trans      &trans  &trans  &trans  &trans  &trans           &kp F11     &kp LEFT            &kp DOWN        &kp RIGHT             &bt BT_PRV      &bt BT_NXT           
 &trans      &trans  &trans  &trans  &trans  &trans           &kp F10     &kp RC(LEFT)        &trans          &kp RC(RIGHT)         &bt BT_DISC     &bt BT_CLR         
                             &trans  &trans  &trans           &trans      &trans              &trans          &trans
