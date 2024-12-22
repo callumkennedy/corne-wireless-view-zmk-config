@@ -34,10 +34,10 @@
         lower_layer {
             label = "down";
             bindings = <
-&kp ESC     &trans    &kp HOME          &kp END           &tog 3             &F12                         &kp DEL         &kp AMPS      &kp UP        &kp MINUS      &kp EQUAL      &kp BACKSPACE
-&trans      &trans    &kp LC(PG_DN)     &kp LBKT          &kp RBKT           &kp LC(MINUS)                &kp TAB         &kp LEFT      &kp DOWN      &kp RIGHT      &kp SEMI       &kp SQT
-&trans      &trans    &kp LC(LS(T))     &kp LT            &kp GT             &kp LC(LS(MINUS))            &kp LPAR        &kp RPAR      &trans        &kp COMMA      &trans        &kp EQUAL
-                                        &trans            &trans             &trans                       &trans          &trans        &kp RALT
+&kp ESC     &kp LS(F12)    &kp HOME          &kp END           &tog 3             &kp F12                      &kp DEL         &kp AMPS      &kp UP        &kp MINUS      &kp EQUAL      &kp BACKSPACE
+&trans      &trans         &kp LC(PG_DN)     &kp LBKT          &kp RBKT           &kp LC(MINUS)                &kp TAB         &kp LEFT      &kp DOWN      &kp RIGHT      &kp SEMI       &kp SQT
+&trans      &trans         &kp LC(LS(T))     &kp LT            &kp GT             &kp LC(LS(MINUS))            &kp LPAR        &kp RPAR      &trans        &kp COMMA      &trans        &kp EQUAL
+                                             &trans            &trans             &trans                       &trans          &trans        &kp RALT
             >;
         };
 
