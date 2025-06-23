@@ -24,29 +24,29 @@
         default_layer {
             label = "base";
             bindings = <
-&kp TAB         &kp Q       &kp W       &kp E            &kp R             &kp T                 &kp Y          &kp U        &kp I          &kp O    &kp P                  &kp BACKSPACE
-&kp LSHIFT      &kp A       &kp S       &kp D            &kp F             &kp G                 &kp H          &kp J        &kp K          &kp L    &kp SEMI          &kp SQT
-&kp LCTRL       &kp Z       &kp X       &kp C            &kp V             &kp B                 &kp N          &kp M        &kp COMMA      &kp DOT  &kp FSLH               &kp RET
-                            &kp LALT    &lt 1 BACKSPACE  &kp SPACE                               &kp BACKSPACE  &lt 2 SPACE  &kp RET
+&kp TAB         &kp Q       &kp W           &kp E            &kp R             &kp T                            &kp Y          &kp U        &kp I          &kp O    &kp P                  &kp BACKSPACE
+&kp LSHIFT      &kp A       &kp S           &kp D            &kp F             &kp G                            &kp H          &kp J        &kp K          &kp L    &kp SEMI               &kp SQT
+&kp LCTRL       &kp Z       &kp X           &kp C            &kp V             &kp B                            &kp N          &kp M        &kp COMMA      &kp DOT  &kp FSLH               &kp RET
+                            &kp LALT        &lt 1 BACKSPACE  &kp SPACE                                          &kp BACKSPACE  &lt 2 SPACE  &kp RET
             >;
         };
 
         lower_layer {
             label = "down";
             bindings = <
-&kp ESC             &tog 3         &kp HOME         &kp END       &kp LS(F12)    &kp LC(Z)                &kp DEL         &kp AMPS      &kp UP        &kp MINUS      &kp EQUAL      &trans
-&trans              &kp LC(LS(F))  &kp LPAR         &kp RPAR      &kp GT         &kp LC(V)                &kp TAB         &kp LEFT      &kp DOWN      &kp RIGHT      &kp SEMI       &kp SQT
-&trans              &kp F2         &kp F12          &kp LS(F12)   &kp LT         &kp LC(C)                &kp LPAR        &kp RPAR      &trans        &kp COMMA      &trans         &kp EQUAL
-                                             &trans            &trans             &trans                       &trans          &trans        &kp RALT
+&kp ESC         &tog 3         &kp LALT(TAB)    &kp LALT(LSHIFT(TAB))   &kp LS(F12)     &kp LC(Z)                &kp DEL         &kp HOME      &kp UP        &kp END      &kp EQUAL      &trans
+&trans          &kp LC(LS(F))  &kp LPAR         &kp RPAR                &kp LT          &kp LC(V)                &kp TAB         &kp LEFT      &kp DOWN      &kp RIGHT      &kp SEMI       &kp SQT
+&trans          &kp F2         &kp F12          &kp LS(F12)             &kp LC(F12)     &kp LC(C)                &kp LPAR        &kp RPAR      &trans        &kp COMMA      &trans         &kp EQUAL
+                                                &trans                  &trans          &trans                   &trans          &trans        &kp RALT
             >;
         };
 
         raise_layer {
             label = "up";
             bindings = <
-&bootloader    &kp EXCL    &kp AT          &kp HASH    &kp DLLR    &kp PRCNT                                 &kp CARET      &kp AMPS         &kp ASTERISK      &trans        &kp RC(PG_UP)      &kp RC(PG_DN)
-&trans         &trans      &trans          &trans      &trans      &trans                                    &kp LBKT       &kp RBKT         &kp LT            &kp GT        &kp RC(RS(TAB))  &kp RC(TAB)
-&trans         &trans      &trans          &trans      &trans      &trans                                    &kp LPAR       &kp RPAR         &kp RBKT          &kp RBKT      &trans           &trans
+&bootloader    &kp EXCL    &kp AT          &kp HASH    &kp DLLR    &kp PRCNT                                 &kp CARET      &kp AMPS         &kp ASTERISK      &kp MINUS     &kp RC(PG_UP)      &kp RC(PG_DN)
+&trans         &trans      &trans          &trans      &trans      &trans                                    &kp LBKT       &kp RBKT         &kp LT            &kp GT        &kp RC(RS(TAB))    &kp RC(TAB)
+&trans         &trans      &trans          &trans      &trans      &trans                                    &kp LPAR       &kp RPAR         &trans            &kp RBKT      &trans             &trans
                                            &trans      &kp LGUI    &kp SPACE                                 &trans         &trans           &kp RALT
             >;
         };
