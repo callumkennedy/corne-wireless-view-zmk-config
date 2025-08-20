@@ -34,7 +34,7 @@
         lower_layer {
             label = "down";
             bindings = <
-&kp ESC         &tog 3         &kp LALT(TAB)    &kp LALT(LSHIFT(TAB))   &kp LS(F12)     &kp LC(Z)                &kp DEL         &kp HOME      &kp UP        &kp END      &kp EQUAL      &trans
+&kp ESC         &tog 3         &kp LALT(TAB)    &kp LALT(LSHIFT(TAB))   &kp LS(F12)     &kp LC(Z)                &kp DEL         &kp HOME      &kp UP        &kp END        &kp EQUAL      &trans
 &trans          &kp LC(LS(F))  &kp LPAR         &kp RPAR                &kp LT          &kp LC(V)                &kp TAB         &kp LEFT      &kp DOWN      &kp RIGHT      &kp SEMI       &kp SQT
 &trans          &kp F2         &kp F12          &kp LS(F12)             &kp LC(F12)     &kp LC(C)                &kp LPAR        &kp RPAR      &trans        &kp COMMA      &trans         &kp EQUAL
                                                 &trans                  &trans          &trans                   &trans          &trans        &kp RALT
