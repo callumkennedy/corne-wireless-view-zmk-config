@@ -12,7 +12,7 @@
     behaviors {
         gui: gui {
             compatible = "zmk,behavior-tap-dance";
-            label = "GUI";
+            display-name = "GUI";
             #binding-cells = <0>;
             bindings = <&kp LEFT_GUI>, <&to 1>;
         };
@@ -38,15 +38,9 @@
         };
 
         lower_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
             display-name = "Lower";
             bindings = <
-&kp ESC         &tog 3         &kp LALT(TAB)    &kp LALT(LS(TAB))       &kp LS(F12)     &kp LC(Z)                &kp DEL         &kp HOME      &kp UP        &kp END        &kp EQUAL      &trans
+&kp ESC         &tog 3         &kp LALT(TAB)    &kp LALT LSHFT TAB      &kp LS(F12)     &kp LC(Z)                &kp DEL         &kp HOME      &kp UP        &kp END        &kp EQUAL      &trans
 &trans          &kp LC(LS(F))  &kp LPAR         &kp RPAR                &kp LT          &kp LC(V)                &kp TAB         &kp LEFT      &kp DOWN      &kp RIGHT      &kp SEMI       &kp SQT
 &trans          &kp F2         &kp F12          &kp LS(F12)             &kp LC(F12)     &kp LC(C)                &kp LPAR        &kp RPAR      &trans        &kp COMMA      &trans         &kp EQUAL
                                                 &trans                  &trans          &trans                   &trans          &trans        &kp RALT
