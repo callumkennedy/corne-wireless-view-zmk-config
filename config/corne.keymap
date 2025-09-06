@@ -41,7 +41,7 @@
             display-name = "Lower";
             bindings = <
 &kp ESC         &kp ESC                 &kp LC(HOME)             &kp LC(END)             &kp LGUI        &kp LC(Z)                &kp ESC         &kp HOME      &kp UP        &kp END        &kp MINUS      &kp PLUS
-&trans          &kp LC(LS(F))           &kp LALT(TAB)            &kp LALT(LS(TAB))       &kp LT          &kp LC(V)                &kp EQUAL       &kp LEFT      &kp DOWN      &kp RIGHT      &kp SEMI       &kp LBKT
+&trans          &kp LC(LS(F))           &kp LA(TAB)              &kp LA(LS(TAB))         &kp LT          &kp LC(V)                &kp EQUAL       &kp LEFT      &kp DOWN      &kp RIGHT      &kp SEMI       &kp LBKT
 &trans          &kp F2                  &kp F12                  &kp LS(F12)             &kp LC(F12)     &kp LC(C)                &kp LPAR        &kp RPAR      &trans        &kp COMMA      &kp APOS       &trans
                                                                  &trans                  &trans          &trans                   &trans          &trans        &kp RSHIFT
             >;
