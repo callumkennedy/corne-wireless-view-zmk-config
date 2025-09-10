@@ -11,15 +11,15 @@
 / {
     behaviors {
         gui: gui {
-            compatible = "zmkbehavior-tap-dance";
+            compatible = "zmk,behavior-tap-dance";
             display-name = "GUI";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_GUI> <&to 1>;
+            bindings = <&kp LEFT_GUI>, <&to 1>;
         };
     };
 
     keymap {
-        compatible = "zmkkeymap";
+        compatible = "zmk,keymap";
 
         default_layer {
     display-name = "Base";
