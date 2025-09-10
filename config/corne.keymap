@@ -32,7 +32,7 @@
             bindings = <
 &kp TAB         &kp Q       &kp W           &kp E            &kp R             &kp T                            &kp Y          &kp U        &kp I          &kp O    &kp P                  &kp BACKSPACE
 &kp LSHIFT      &kp A       &kp S           &kp D            &kp F             &kp G                            &kp H          &kp J        &kp K          &kp L    &kp SEMI               &kp SQT
-&kp LCTRL       &kp Z       &kp X           &kp C            &kp V             &kp B                            &kp N          &kp M        &kp COMMA      &kp DOT  &kp FSLH               &kp RET
+&kp LCTRL       &kp Z       &kp X           &kp C            &kp V             &kp B                            &kp N          &kp M        &kp COMMA      &kp DOT  &kp RET                &kp FLSH
                             &kp LALT        &lt 1 BACKSPACE  &kp SPACE                                          &kp BACKSPACE  &lt 2 SPACE  &kp RET
         >;
         };
@@ -40,10 +40,10 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&kp ESC         &kp ESC                 &kp LC(HOME)             &kp LC(END)             &kp LGUI        &kp LC(Z)                &kp ESC         &kp HOME      &kp UP        &kp END        &kp MINUS      &kp PLUS
-&trans          &kp LC(LS(F))           &kp LA(TAB)              &kp LA(LS(TAB))         &kp LT          &kp LC(V)                &kp EQUAL       &kp LEFT      &kp DOWN      &kp RIGHT      &kp SEMI       &kp LBKT
-&trans          &kp F2                  &kp F12                  &kp LS(F12)             &kp LC(F12)     &kp LC(C)                &kp LPAR        &kp RPAR      &trans        &kp COMMA      &kp APOS       &trans
-                                                                 &trans                  &trans          &trans                   &trans          &trans        &kp RSHIFT
+&kp ESC           &kp LGUI              &kp LC(HOME)            &kp LC(END)             &kp LC(Z)         &kp LC(Y)                &kp ESC         &kp HOME      &kp UP        &kp END        &kp MINUS      &kp PLUS
+&trans            &kp LC(F)             &kp LA                  &kp TAB                 &kp LS(TAB)       &kp LC(V)                &kp EQUAL       &kp LEFT      &kp DOWN      &kp RIGHT      &trans         &trans
+&trans            &kp LS(F12)           &kp LS(F12)             &kp F12                 &kp F2            &kp LC(C)                &kp LPAR        &kp RPAR      &kp LBKT      &kp RBKT       &kp APOS       &trans
+                                                                &trans                  &trans            &trans                   &trans          &trans        &kp RSHIFT
             >;
         };
 
